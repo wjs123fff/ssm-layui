@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="personnel:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/personnel_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="personnel/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="personnel" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ant-1.9.6" />
+          <element id="library" level="project" name="jsqlparser-1.0" />
+          <element id="library" level="project" name="pagehelper-5.1.0-beta21" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
